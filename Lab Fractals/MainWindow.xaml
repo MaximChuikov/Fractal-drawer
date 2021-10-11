@@ -1,0 +1,165 @@
+﻿<Window x:Class="Lab_Fractals.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_Fractals"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480"
+        Width="800"
+        WindowState="Maximized"
+        Background="Moccasin">
+
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="ItemsControl.FontSize" Value="16"/>
+            <Setter Property="ItemsControl.MaxWidth" Value="120"/>
+            <Setter Property="ItemsControl.MinWidth" Value="20"/>
+        </Style>
+        
+        <Style x:Key="b">
+            <Setter Property="Control.Background" Value="Gray"/>
+            <Setter Property="Control.Width" Value="10"/>
+            <Setter Property="Control.Height" Value="10"/>
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"
+                              MinWidth="30"/>
+            <ColumnDefinition Width="3*"
+                              MinWidth="60"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="6*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="1"
+                    Background="Plum"
+                    BorderBrush="Black"
+                    BorderThickness="3">
+                <StackPanel VerticalAlignment="Center"
+                            HorizontalAlignment="Left"
+                            Margin="5,0,5,0">
+                    <Label Content="Enter axiom"/>
+                    <TextBox Name="axiom"
+                             HorizontalAlignment="Stretch"/>
+
+                    <DockPanel>
+                        <Label Content="Iterations"/>
+                        <TextBox Name="iterations"
+                                 PreviewTextInput="TextBox_PreviewTextInputInt"/>
+                    </DockPanel>
+
+                    <DockPanel>
+                        <Label Content="Angle"/>
+                        <TextBox Name="angle"
+                                 PreviewTextInput="TextBox_PreviewTextInputDouble"/>
+                    </DockPanel>
+                    
+                    <DockPanel>
+                        <Label Content="Start angle"/>
+                        <TextBox Name="startAngle"
+                                 PreviewTextInput="TextBox_PreviewTextInputDouble"/>
+                    </DockPanel>
+                    
+                    <DockPanel>
+                        <Label Content="Distantion"/>
+                        <TextBox Name="distantion"
+                                 PreviewTextInput="TextBox_PreviewTextInputDouble"/>
+                    </DockPanel>
+
+                    <Label Content="Enter rules"/>
+                    <StackPanel Name="rulesList"/>
+                    <DockPanel HorizontalAlignment="Right">
+                        <Border BorderBrush="Black"
+                                BorderThickness="0.7"
+                                CornerRadius="1"
+                                Cursor="Hand"
+                                Margin="0,0,4,0"
+                                MouseDown="AddRule">
+                            <Canvas Style="{StaticResource b}">
+                                <Line X1="5" X2="5" Y1="0.5" Y2="9.5"
+                                      StrokeThickness="0.9"
+                                      Stroke="Black"/>
+                                <Line Y1="5" Y2="5" X1="0.5" X2="9.5"
+                                      StrokeThickness="0.9"
+                                      Stroke="Black"/>
+                            </Canvas>
+                        </Border>
+
+                        <Border BorderBrush="Black"
+                                BorderThickness="0.7"
+                                CornerRadius="1"
+                                Cursor="Hand"
+                                MouseDown="DeleteRule">
+                            <Canvas Style="{StaticResource b}">
+                                <Line Y1="5" Y2="5" X1="0.5" X2="9.5"
+                                      StrokeThickness="0.9"
+                                      Stroke="Black"/>
+                            </Canvas>
+                        </Border>
+                    </DockPanel>
+
+                    <DockPanel>
+                        <CheckBox Name="isColored"
+                                  VerticalAlignment="Center"/>
+                        <Label Content="Colored"
+                               VerticalAlignment="Center"/>
+                    </DockPanel>
+
+                    <StackPanel Name="animated">
+                        <DockPanel>
+                            <CheckBox Name="isAnimated"
+                                      VerticalAlignment="Center"
+                                      Click="isAnimated_Click"/>
+                            <Label Content="Animated"
+                               VerticalAlignment="Center"/>
+                        </DockPanel>
+                    </StackPanel>
+
+                    <Button Content="Draw"
+                            Click="DrawFractal"/>
+                    
+                </StackPanel>
+            </Border>
+            
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="40*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="40*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border BorderBrush="Black"
+                        BorderThickness="3"
+                        Grid.Column="1"
+                        Grid.Row="1">
+                    <Canvas x:Name="canvas"
+                            Background="RosyBrown"
+                            MouseMove="canvas_MouseMove"
+                            MouseEnter="canvas_MouseEnter"
+                            MouseLeave="canvas_MouseLeave"
+                            MouseDown="canvas_MouseDown"/>
+
+
+                </Border>
+
+            </Grid>
+        </Grid>
+        
+    </Grid>
+</Window>

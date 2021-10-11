@@ -1,0 +1,44 @@
+D:\Repositories\Lab Fractals\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.csproj.AssemblyReference.cache
+D:\Repositories\Lab Fractals\Lab Fractals\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\Repositories\Lab Fractals\Lab Fractals\obj\Debug\net5.0-windows\App.g.cs
+D:\Repositories\Lab Fractals\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals_MarkupCompile.cache
+D:\Repositories\Lab Fractals\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals_MarkupCompile.lref
+D:\Repositories\Lab Fractals\Lab Fractals\bin\Debug\net5.0-windows\Lab Fractals.exe
+D:\Repositories\Lab Fractals\Lab Fractals\bin\Debug\net5.0-windows\Lab Fractals.deps.json
+D:\Repositories\Lab Fractals\Lab Fractals\bin\Debug\net5.0-windows\Lab Fractals.runtimeconfig.json
+D:\Repositories\Lab Fractals\Lab Fractals\bin\Debug\net5.0-windows\Lab Fractals.runtimeconfig.dev.json
+D:\Repositories\Lab Fractals\Lab Fractals\bin\Debug\net5.0-windows\Lab Fractals.dll
+D:\Repositories\Lab Fractals\Lab Fractals\bin\Debug\net5.0-windows\ref\Lab Fractals.dll
+D:\Repositories\Lab Fractals\Lab Fractals\bin\Debug\net5.0-windows\Lab Fractals.pdb
+D:\Repositories\Lab Fractals\Lab Fractals\obj\Debug\net5.0-windows\MainWindow.baml
+D:\Repositories\Lab Fractals\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.g.resources
+D:\Repositories\Lab Fractals\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\Lab Fractals\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.AssemblyInfoInputs.cache
+D:\Repositories\Lab Fractals\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.AssemblyInfo.cs
+D:\Repositories\Lab Fractals\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.csproj.CoreCompileInputs.cache
+D:\Repositories\Lab Fractals\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.dll
+D:\Repositories\Lab Fractals\Lab Fractals\obj\Debug\net5.0-windows\ref\Lab Fractals.dll
+D:\Repositories\Lab Fractals\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.pdb
+D:\Repositories\Lab Fractals\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.genruntimeconfig.cache
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\bin\Debug\net5.0-windows\Lab Fractals.exe
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\bin\Debug\net5.0-windows\Lab Fractals.deps.json
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\bin\Debug\net5.0-windows\Lab Fractals.runtimeconfig.json
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\bin\Debug\net5.0-windows\Lab Fractals.runtimeconfig.dev.json
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\bin\Debug\net5.0-windows\Lab Fractals.dll
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\bin\Debug\net5.0-windows\ref\Lab Fractals.dll
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\bin\Debug\net5.0-windows\Lab Fractals.pdb
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.csproj.AssemblyReference.cache
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\obj\Debug\net5.0-windows\App.g.cs
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals_MarkupCompile.cache
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals_MarkupCompile.lref
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\obj\Debug\net5.0-windows\MainWindow.baml
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.g.resources
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.AssemblyInfoInputs.cache
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.AssemblyInfo.cs
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.csproj.CoreCompileInputs.cache
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.dll
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\obj\Debug\net5.0-windows\ref\Lab Fractals.dll
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.pdb
+D:\Repositories\Lab Fractals\Fractal drawer\Lab Fractals\obj\Debug\net5.0-windows\Lab Fractals.genruntimeconfig.cache
