@@ -159,8 +159,7 @@ namespace Fractals
                             Action<Point> fly, Action<Point, double> save, Func<Tuple<Point, double>> load,
                             Action<Point> movePointer, Action removePointer, Action changeColor = null, int timeDelay = 0)
         {
-            for (uint i = 0; i < deep; i++)
-                axioma = TransformAxioma(axioma);
+            axioma = TransformAxioma(0, deep, axioma);
 
             foreach (var c in axioma)
             {
@@ -202,7 +201,7 @@ namespace Fractals
             removePointer();
 
             //Вспомогательный метод
-            string TransformAxioma(string axioma)
+            string TransformAxioma(int me, uint deep, string axioma)
             {
                 var str = new StringBuilder();
                 foreach (var c in axioma)
@@ -210,7 +209,10 @@ namespace Fractals
                         str.Append(rules[c]);
                     else
                         str.Append(c);
-                return str.ToString();
+                if (me < deep)
+                    return TransformAxioma(me + 1, deep, str.ToString());
+                else
+                    return str.ToString();
             }
         }
         private Point GetPoint(Point from, double ang, double radius)

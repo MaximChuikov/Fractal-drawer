@@ -37,6 +37,7 @@ namespace Lab_Fractals
         }
         private void DrawFractal(object sender, RoutedEventArgs e)
         {
+
             try
             {
                 canvas.Children.Clear();

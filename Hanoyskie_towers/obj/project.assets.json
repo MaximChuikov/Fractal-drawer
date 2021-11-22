@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {}
+    "net5.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": []
+    "net5.0": []
   },
   "packageFolders": {
     "C:\\Users\\machs\\.nuget\\packages\\": {},
@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositories\\Lab Fractals\\Fractal drawer\\Lab Fractals\\Lab Fractals.csproj",
-      "projectName": "Lab Fractals",
-      "projectPath": "D:\\Repositories\\Lab Fractals\\Fractal drawer\\Lab Fractals\\Lab Fractals.csproj",
+      "projectUniqueName": "D:\\Repositories\\Lab Fractals\\Fractal drawer\\Hanoyskie_towers\\Hanoyskie_towers.csproj",
+      "projectName": "Hanoyskie_towers",
+      "projectPath": "D:\\Repositories\\Lab Fractals\\Fractal drawer\\Hanoyskie_towers\\Hanoyskie_towers.csproj",
       "packagesPath": "C:\\Users\\machs\\.nuget\\packages\\",
-      "outputPath": "D:\\Repositories\\Lab Fractals\\Fractal drawer\\Lab Fractals\\obj\\",
+      "outputPath": "D:\\Repositories\\Lab Fractals\\Fractal drawer\\Hanoyskie_towers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Программы\\Visual Studio SDK\\NuGetPackages",
@@ -32,15 +32,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0-windows7.0"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0-windows7.0": {
-          "targetAlias": "net5.0-windows",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -51,8 +51,8 @@
       }
     },
     "frameworks": {
-      "net5.0-windows7.0": {
-        "targetAlias": "net5.0-windows",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "imports": [
           "net461",
           "net462",
@@ -66,9 +66,6 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WPF": {
-            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"

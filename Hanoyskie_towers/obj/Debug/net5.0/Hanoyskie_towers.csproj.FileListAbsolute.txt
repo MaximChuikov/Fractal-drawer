@@ -1,0 +1,16 @@
+D:\Repositories\Lab Fractals\Fractal drawer\Hanoyskie_towers\bin\Debug\net5.0\Hanoyskie_towers.exe
+D:\Repositories\Lab Fractals\Fractal drawer\Hanoyskie_towers\bin\Debug\net5.0\Hanoyskie_towers.deps.json
+D:\Repositories\Lab Fractals\Fractal drawer\Hanoyskie_towers\bin\Debug\net5.0\Hanoyskie_towers.runtimeconfig.json
+D:\Repositories\Lab Fractals\Fractal drawer\Hanoyskie_towers\bin\Debug\net5.0\Hanoyskie_towers.runtimeconfig.dev.json
+D:\Repositories\Lab Fractals\Fractal drawer\Hanoyskie_towers\bin\Debug\net5.0\Hanoyskie_towers.dll
+D:\Repositories\Lab Fractals\Fractal drawer\Hanoyskie_towers\bin\Debug\net5.0\ref\Hanoyskie_towers.dll
+D:\Repositories\Lab Fractals\Fractal drawer\Hanoyskie_towers\bin\Debug\net5.0\Hanoyskie_towers.pdb
+D:\Repositories\Lab Fractals\Fractal drawer\Hanoyskie_towers\obj\Debug\net5.0\Hanoyskie_towers.csproj.AssemblyReference.cache
+D:\Repositories\Lab Fractals\Fractal drawer\Hanoyskie_towers\obj\Debug\net5.0\Hanoyskie_towers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\Lab Fractals\Fractal drawer\Hanoyskie_towers\obj\Debug\net5.0\Hanoyskie_towers.AssemblyInfoInputs.cache
+D:\Repositories\Lab Fractals\Fractal drawer\Hanoyskie_towers\obj\Debug\net5.0\Hanoyskie_towers.AssemblyInfo.cs
+D:\Repositories\Lab Fractals\Fractal drawer\Hanoyskie_towers\obj\Debug\net5.0\Hanoyskie_towers.csproj.CoreCompileInputs.cache
+D:\Repositories\Lab Fractals\Fractal drawer\Hanoyskie_towers\obj\Debug\net5.0\Hanoyskie_towers.dll
+D:\Repositories\Lab Fractals\Fractal drawer\Hanoyskie_towers\obj\Debug\net5.0\ref\Hanoyskie_towers.dll
+D:\Repositories\Lab Fractals\Fractal drawer\Hanoyskie_towers\obj\Debug\net5.0\Hanoyskie_towers.pdb
+D:\Repositories\Lab Fractals\Fractal drawer\Hanoyskie_towers\obj\Debug\net5.0\Hanoyskie_towers.genruntimeconfig.cache
